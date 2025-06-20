@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - QPapers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="QPapers Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="papers.html">Papers</a></li>
+                
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="upload-section admin-panel">
+            <h2>Manage Question Papers</h2>
+            <div id="paper-management"></div>
+
+            <h2>Upload New Question Paper</h2>
+            <form id="upload-form">
+                <input type="text" id="title" placeholder="Paper Title" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <input type="text" id="course" placeholder="Course" required>
+                <input type="number" id="year" placeholder="Year" required>
+                <input type="file" id="file" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 QPapers. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

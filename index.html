@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previous Year Question Papers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://pbs.twimg.com/profile_images/1666127359404277760/mx3ryyfP_400x400.jpg" alt="QPapers Logo ">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="papers.html">Papers</a></li>
+                
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Find Previous Year Question Papers</h1>
+            <p>Your one-stop destination for academic resources.</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search by course, subject, year...">
+                <button>Search</button>
+            </div>
+        </section>
+
+        <section class="featured-papers">
+            <h2>Featured Papers</h2>
+            <div class="filters">
+                <select id="course-filter">
+                    <option value="">All Courses</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="B.E.">B.E.</option>
+                </select>
+                <select id="year-filter">
+                    <option value="">All Years</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                   
+                </select>
+            </div>
+            <div class="paper-grid paper-list">
+                <!-- Paper cards will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 QPapers. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
